@@ -9,12 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "axios": "^0.26.1",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.3",
+    "hardhat": "^2.9.3",
+    "ipfs-http-client": "^56.0.2",
     "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "web3modal": "^1.9.6"
   },
   "devDependencies": {
+    "autoprefixer": "^9",
     "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5"
+    "eslint-config-next": "12.1.5",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
+
+
+// feel addict arctic impulse room mobile stumble early express cruise sibling predict
+// 8f97deb4e8c7b8c8705e69985d9304f00177939c722449325026c504a8b50aa3
+
