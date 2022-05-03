@@ -1,3 +1,4 @@
+"use strict"
 // import styles from '../styles/Home.module.css'
 // import {ethers} from 'ethers';
 // import { useEffect, useState } from 'react';
@@ -34,7 +35,7 @@ export default function Home() {
   }, []);
 
   async function loadNFTs(){
-    const provider = new ethers.providers.JsonRpcProvider("https://polygon-mumbai.infura.io/v3/4fa55521d0f647f28c1a179e85f454da");
+    const provider = new ethers.providers.JsonRpcProvider("https://polygon-mumbai.infura.io/v3/659f1574383a4626b1af30e92ac75374");
     const tokenContract = new ethers.Contract(nftaddress, NFT.abi, provider);
     const marketContract = new ethers.Contract(nftmarketaddress, Market.abi, provider);
 

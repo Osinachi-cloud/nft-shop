@@ -19,7 +19,6 @@ describe("NFTMarket", function () {
 
     //set an auction price
     const auctionPrice = ethers.utils.parseUnits("100", "ether");
-
     //create 2 test tokens
     await nft.createToken("https://www.mytokenlocation.com");
     await nft.createToken("https://www.mytokenlocation2.com");
